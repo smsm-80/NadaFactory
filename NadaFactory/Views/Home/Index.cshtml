@@ -1,8 +1,620 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+<!-- Views/Home/Index.cshtml -->
+@{
+    ViewData["Title"] = "مصنع ندى للأخشاب";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Main sections -->
+<div class="containerWhite">
+
+    <section id="intro" class="section intro">
+        <div class="overlay">
+            <div class="container text-center text-white">
+                <h1 class="display-4">NADA ALAKSHAB FACTORY</h1>
+                <h2>مصنع ندى للأخشاب</h2>
+                <p>للصناعات الخشبية</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<div class="containerWhite">
+
+    <section id="about" class="section bg-white  py-5">
+
+
+
+        <div class="container  shadow p-5 bg-beige mt-4 rounded">
+        <h2 class="section-title text-end text-success border-end border-4 pe-3 mb-4">
+            مقدمة تعريفية
+        </h2>
+        <div class="row text-end" dir="rtl">
+            <div class="col-md-4 mb-3">
+                <p>
+                    في ظل التطور الكبير الذي تشهده المملكة العربية السعودية في مجالات الصناعة والبيئة، يبرز مصنع ندى للأخشاب للصناعات الخشبية كمثال رائد على التحول نحو الاقتصاد الدائري المستدام.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <p>
+                    من خلال إعادة تدوير الأخشاب والمخلفات الزراعية الخضراء، يعمل المصنع على تحويل هذه المواد إلى منتجات ذات قيمة عالية مثل نشارة الدواجن، نشارة الخيول، والنشارة المستخلصة من مخلفات النخيل والأشجار، وكسر أخشاب مضمار سباقات الخيل باستخدام تقنيات متطورة تراعي المعايير البيئية العالمية.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <p>
+                    في مصنع ندى للأخشاب، نعتبر أن كل منتج نقدمه هو أكثر من مجرد منتج صناعي؛ بل حل بيئي واقتصادي متكامل يساهم في تعزيز الأمن الغذائي وتقليل الفاقد. ويواكب أهداف رؤية المملكة 2030 في بناء اقتصاد مستدام قادر على التعامل مع تحديات المستقبل البيئية والصناعية.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- الحاوية البيضاء -->
+</section>
+
+</div>
+
+<div class="containerWhite">
+ <section id="factory" class="section2 bg-factory text-white">
+    <div class="container-fluid px-0">
+        <div class="row g-0 align-items-stretch flex-row-reverse bg-color">
+            <div class="col-md-6 bg-success d-flex align-items-center p-5 text-end">
+                <div class="text-box">
+                    <h2 class="section-title text-white border-end border-4 pe-3 mb-4">عن المصنع</h2>
+                    <p class="fs-5">
+                        يقع المصنع في موقع استراتيجي داخل المملكة، يتيح له الوصول السهل إلى مصادر الأخشاب والمخلفات الزراعية،
+                        إضافة إلى القرب من الأسواق المستهدفة. يعتمد المصنع على أحدث التقنيات والآلات في عمليات التدوير والإنتاج،
+                        ما يضمن منتجات عالية الجودة تلبي احتياجات العملاء وتفوق توقعاتهم.
+                    </p>
+                </div>
+            </div>
+            <!-- الصور -->
+            <div class="col-md-6 d-flex flex-column">
+                <div class="row g-0 flex-grow-1">
+                    <div class="col-4 p-1">
+                        <img src="~/images/factory1.jpg" class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-4 p-1">
+                        <img src="~/images/factory2.jpg" class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-4 p-1">
+                        <img src="~/images/factory3.jpg" class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-12 p-1">
+                        <img src="~/images/factory4.jpg" class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- النص -->
+            
+        </div>
+    </div>
+</section>
+</div>
+
+
+<div class="containerWhite">
+
+<section id="vision" class="section2 p-0">
+    <div class="container-fluid px-0">
+        <div class="row g-0 align-items-stretch flex-row-reverse">
+            <!-- صورة على اليمين -->
+            <div class="col-md-6">
+                <img src="~/images/vision.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="رؤيتنا">
+            </div>
+
+            <!-- نص على اليسار -->
+            <div class="col-md-6 bg-beige text-end p-5 border-end border-4 border-success d-flex align-items-center">
+                <div>
+                    <h2 class="section-title text-success border-end border-4 pe-3 mb-4">رؤيتنا</h2>
+                    <p class="fs-5">
+                        الزيادة في الصناعات التحويلية الخضراء بالمملكة من خلال تقديم حلول مبتكرة ومستدامة تعزز إدارة الموارد الطبيعية وتُعيد تعريف مفهوم النفايات كمصادر قيمة وطنية.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+
+<div class="containerWhite">
+
+    <section id="mission" class="section2 p-0 mission">
+        <div class="container-fluid px-0">
+            <div class="row g-0 align-items-stretch flex-row-reverse">
+
+                <!-- النص -->
+                <div class="col-md-6 text-pane">
+                    <div class="inner">
+                        <h2 class="section-title text-white border-end border-4 pe-3 mb-3">رسالتنا</h2>
+                        <p class="lead mb-0">
+                            تحقيق التوازن بين التقدم الصناعي والحفاظ على البيئة عبر إنتاج منتجات صديقة للبيئة.
+                            نعتمد على تقنيات حديثة، وندعم الاقتصاد الوطني بما يتماشى مع رؤية المملكة 2030.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- الصور -->
+                <div class="col-md-6 media-pane">
+                    <div class="media-grid">
+                        <div class="img-tile">
+                            <img src="~/images/mission1.jpg" alt="رسالتنا - 1">
+                        </div>
+                        <div class="img-tile">
+                            <img src="~/images/mission2.jpg" alt="رسالتنا - 2">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+
+
+<div class="containerWhite">
+
+<div class="containerWhite">
+    <section id="values" class="section py-5" style="background-color: #ede2cf;">
+        <div class="container text-center">
+            <h2 class="section-title mb-4" style="color: #326b43; text-align: right; font-weight: bold;">
+                <i class="fas fa-seedling"></i> قيمنا
+            </h2>
+            <div class="row justify-content-center">
+                <!-- الاستدامة -->
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-leaf fa-2x mb-2" style="color: #764c2f;"></i>
+                    <h5 style="color: #326b43; font-weight: bold;">الاستدامة:</h5>
+                    <p>التزام بممارسات إعادة التدوير وتقليل الانبعاثات الكربونية.</p>
+                </div>
+                <!-- الجودة -->
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-award fa-2x mb-2" style="color: #764c2f;"></i>
+                    <h5 style="color: #326b43; font-weight: bold;">الجودة:</h5>
+                    <p>منتجات بمعايير محلية وعالمية عالية.</p>
+                </div>
+                <!-- الابتكار -->
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-lightbulb fa-2x mb-2" style="color: #764c2f;"></i>
+                    <h5 style="color: #326b43; font-weight: bold;">الابتكار:</h5>
+                    <p>تطوير آليات التصنيع باستمرار.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- المسؤولية البيئية -->
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-recycle fa-2x mb-2" style="color: #764c2f;"></i>
+                    <h5 style="color: #326b43; font-weight: bold;">المسؤولية البيئية:</h5>
+                    <p>مبادرات تقلل النفايات وتعزز الاستخدام الأمثل للموارد.</p>
+                </div>
+                <!-- العمل الجماعي -->
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-people-group fa-2x mb-2" style="color: #764c2f;"></i>
+                    <h5 style="color: #326b43; font-weight: bold;">العمل الجماعي:</h5>
+                    <p>روح الفريق أساس النجاح.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</div>
+<div class="containerWhite">
+
+
+<section id="products" class="products-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-end">
+                <h2 class="section-title">
+                    <span class="title-text">منتجاتنا</span>
+                    <span class="divider">|</span>
+                </h2>
+                <h4 class="section-subtitle">تحويل المخلفات إلى موارد قيّمة:</h4>
+                <ul class="product-list rtl">
+                    <li>نشارة حضائر الدواجن</li>
+                    <li>نشارة اسطبلات الخيل</li>
+                    <li>كسر أخشاب مضمار السباق</li>
+                    <li>نشارة ألياف النخيل</li>
+                    <li>الواح بديل الخشب WPC</li>
+                    <li>الواح الخشب MDF</li>
+                    <li>اعلاف حيوانية مركبة</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</div>
+
+
+<div class="containerWhite">
+    <section id="tech" class="section tech-section">
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+                <!-- الصورة (يمين) -->
+                <div class="col-md-4 image-container">
+                    <div class="tech-image"></div>
+                </div>
+                <!-- النصوص (يسار) -->
+                <div class="col-md-8 p-5 text-end text-container">
+                    <div class="row gy-4">
+
+                        <!-- صندوق 1 -->
+                        <div class="col-md-6">
+                            <div class="tech-box">
+                                <h5>
+                                    <img src="images/logo-icon.png" class="icon"> نشارة الدواجن:
+                                </h5>
+                                <p>
+                                    <strong>حجم التعبئة:</strong> 10 كجم<br>
+                                    <strong>نسبة الرطوبة:</strong> 3% - 8%<br>
+                                    <strong>الفوائد:</strong> امتصاص الرطوبة، تقليل الروائح، عزل حراري لحظائر الطيور.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- صندوق 2 -->
+                        <div class="col-md-6">
+                            <div class="tech-box">
+                                <h5>
+                                    <img src="images/logo-icon.png" class="icon"> نشارة الخيول:
+                                </h5>
+                                <p>
+                                    <strong>حجم التعبئة:</strong> 5 – 10 كجم<br>
+                                    <strong>نسبة الرطوبة:</strong> 5% - 20%<br>
+                                    <strong>الفوائد:</strong> راحة للإسطبلات، سطح آمن، امتصاص ممتاز، سهولة التنظيف.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- صندوق 3 -->
+                        <div class="col-md-6">
+                            <div class="tech-box">
+                                <h5>
+                                    <img src="images/logo-icon.png" class="icon"> كسر الأخشاب:
+                                </h5>
+                                <p>
+                                    <strong>الاستخدامات:</strong> يُستخدم في مضمار سباقات الخيل لتقليل ضغط أرجل الخيول، امتصاص الصدمات، حماية الأدوات.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- صندوق 4 -->
+                        <div class="col-md-6">
+                            <div class="tech-box">
+                                <h5>
+                                    <img src="images/logo-icon.png" class="icon"> نشارة الألياف من نواتج تقليم النخيل
+                                </h5>
+                                <p>
+                                    وسط زراعي بديل للتربة (قريبًا)<br>
+                                    <strong>الاستخدامات:</strong> تحسين خصوبة التربة، احتجاز الكربون، رفع الإنتاجية الزراعية.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+<div class="containerWhite">
+
+
+<section id="operations" class="section operations-section">
+    <div class="pattern-bar"></div>
+
+    <div class="container text-end">
+        <div class="section-title">
+            <h2>
+                <span class="title-text">عملياتنا وتقنياتنا</span>
+                <span class="divider">|</span>
+            </h2>
+            <p class="subtitle">نستخدم سلسلة متكاملة من التقنيات الحديثة تشمل:</p>
+        </div>
+
+        <div class="row mt-5 gy-4">
+            <div class="col-md-4">
+                <div class="operation-item">جمع واستلام المواد من مصادر موثوقة.</div>
+                <div class="operation-item">التحكم بالرطوبة حسب الاستخدام.</div>
+            </div>
+            <div class="col-md-4">
+                <div class="operation-item">الفرز والفحص للتأكد من الجودة.</div>
+                <div class="operation-item">التعبئة والتغليف الأوتوماتيكي.</div>
+            </div>
+            <div class="col-md-4">
+                <div class="operation-item">تقطيع ومعالجة حسب المواصفات.</div>
+                <div class="operation-item">التوزيع الآمن والدقيق للعملاء.</div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<div class="containerWhite">
+
+<section id="clients" class="clients-section section">
+    <div class="pattern-bar"></div>
+
+    <div class="container text-end">
+        <div class="section-title">
+            <h2>
+                <span class="title-text">عملاؤنا</span>
+                <span class="divider">|</span>
+            </h2>
+        </div>
+
+        <div class="row mt-5 gy-4">
+            <div class="col-md-4">
+                <div class="client-item">محرز نادي سباقات الخيل</div>
+                <div class="client-item">شركة دواجن الرمحية</div>
+            </div>
+            <div class="col-md-4">
+                <div class="client-item">مستشفى نادي سباقات الخيل</div>
+                <div class="client-item">شركة دواجن التنمية</div>
+            </div>
+            <div class="col-md-4">
+                <div class="client-item">شركة دواجن الوطنية</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<div class="containerWhite">
+
+<section id="markets" class="markets-section section">
+    <div class="container-fluid">
+        <div class="row g-0">
+            <!-- اللوحة النصية -->
+            <div class="col-md-5 General-text">
+                <div class="inner p-5">
+
+                    <h2 class="markets-title">
+                        <span class="title-text">الأسواق<br>المستهدفة</span>
+                        <span class="divider">|</span>
+                    </h2>
+
+                    <!-- الخط العمودي الطويل تحت العنوان -->
+                    <span class="spine" aria-hidden="true"></span>
+
+                    <ul class="market-list">
+                        <li>
+                            <strong>إسطبلات الخيول ونوادي الفروسية:</strong>
+                            <div class="desc">نشارة مخصصة توفر بيئة آمنةوصحية للخيول.</div>
+                        </li>
+                        <li>
+                            <strong>مشاريع الاستزراع الزراعي المستدام:</strong>
+                            <div class="desc">نشارة الألياف من نواتج تقليم النخيل.</div>
+                        </li>
+                        <li>
+                            <strong>الشركات الصناعية في الاقتصاد الدائري:</strong>
+                            <div class="desc">شراكات استراتيجية لتحقيق الاستدامة.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- الصورة -->
+            <div class="col-md-7 markets-image"></div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<div class="containerWhite">
+
+
+<section id="impact" class="impact-section section">
+    <div class="container-fluid">
+        <div class="row g-0 align-items-stretch">
+
+            <!-- النص -->
+            <div class="col-md-4 impact-text d-flex">
+                <div class="inner p-5 m-auto">
+                    <h2 class="impact-title mb-4 fw-bold fs-3">
+                        الأثر البيئي<br>والاقتصادي
+                        <span class="divider" style="color:#d0d0d0;">|</span>
+                    </h2>
+
+                    <ul class="impact-list list-unstyled lh-lg">
+                        <li class="mb-3">
+                            <strong>دعم الاقتصاد الدائري:</strong>
+                            <div class="desc">تحويل النفايات إلى موارد يعزز الكفاءة الاقتصادية والبيئية.</div>
+                        </li>
+                        <li class="mb-3">
+                            <strong>الحياد الكربوني:</strong>
+                            <div class="desc">تقليل الانبعاثات ودعم مستهدفات المملكة للوصول لصفر كربون بحلول 2060.</div>
+                        </li>
+                        <li>
+                            <strong>فرص وظيفية:</strong>
+                            <div class="desc">توظيف وتأهيل الكوادر السعودية في قطاع الصناعات التحويلية الخضراء.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- الصورة الأولى -->
+            <div class="col-md-4 impact-image"
+                 style="background-image:url('/images/impact1.jpg');">
+            </div>
+
+            <!-- الصورة الثانية -->
+            <div class="col-md-4 impact-image"
+                 style="background-image:url('/images/impact2.jpg');">
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+<div class="containerWhite">
+
+
+
+<section id="vision" class="vision-section section">
+    <div class="container-fluid">
+        <div class="row g-0 align-items-stretch">
+
+            <!-- النصوص -->
+            <div class="col-md-6 vision-text d-flex">
+                <div class="inner p-5 m-auto">
+                    <h2 class="vision-title mb-4 fw-bold fs-3">
+                        علاقتنا برؤية<br>المملكة 2030
+                        <span class="divider">|</span>
+                    </h2>
+
+                    <ul class="vision-list list-unstyled lh-lg mt-4">
+                        <li class="mb-4">
+                            <i class="icon-leaf"></i>
+                            <strong>مجتمع حيوي وبيئة مستدامة:</strong>
+                            <div class="desc">تقليل التلوث وتحسين جودة الحياة.</div>
+                        </li>
+                        <li class="mb-4">
+                            <i class="icon-leaf"></i>
+                            <strong>اقتصاد مزدهر:</strong>
+                            <div class="desc">الابتكار الصناعي وتوفير بدائل محلية.</div>
+                        </li>
+                        <li>
+                            <i class="icon-leaf"></i>
+                            <strong>وطن طموح:</strong>
+                            <div class="desc">نموذج ناجح للقطاع الخاص في تحقيق التنمية المستدامة.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- الصورة -->
+            <div class="col-md-6 vision-image"></div>
+        </div>
+    </div>
+</section>
+
+
+</div>
+
+<div class="containerWhite">
+
+<section id="future-plans" class="future-plans-section section">
+    <div class="container-fluid">
+        <div class="row g-0">
+            <!-- الصورة -->
+            <div class="col-md-6 plans-image" style="background-image: url('/images/future-plans.jpg');"></div>
+
+            <!-- النصوص -->
+            <div class="col-md-6 plans-text">
+                <div class="inner p-5">
+                    <h2 class="plans-title">
+                        <span class="title-text">خططنا<br>المستقبلية</span>
+                        <span class="divider">|</span>
+                    </h2>
+                    <span class="spine"></span>
+                    <ul class="plans-list">
+                        <li>
+                            <div class="desc">نشارة الألياف من نواتج تقليم النخيل منتج عالي الكفاءة.</div>
+                        </li>
+                        <li>
+                            <strong>شراكات استراتيجية:</strong>
+                            <div class="desc">مع البلديات، المزارع، ومراكز الإنتاج الحيواني.</div>
+                        </li>
+                        <li>
+                            <strong>توسيع الطاقة الإنتاجية:</strong>
+                            <div class="desc">لتلبية الطلب المحلي ودخول أسواق جديدة.</div>
+                        </li>
+                        <li>
+                            <div class="desc">الحصول على شهادات FSC® و ISO 14001 لتعزيز الموثوقية البيئية والجودة.</div>
+                        </li>
+                        <li>
+                            <div class="desc">ميكنة عمليات التصنيع.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<div class="containerWhite">
+
+<section id="why-nada" class="why-nada-section section">
+    <div class="container-fluid">
+        <div class="row g-0">
+            <div class="col-md-5 why-left">
+                <div class="inner p-5">
+                    <h2 class="why-title">
+                        <span class="title-text">لماذا ندى<br>الأخشاب؟</span>
+                        <span class="divider">|</span>
+                    </h2>
+                    <span class="spine"></span>
+
+                    <ul class="why-list">
+                        <li>
+                            <div class="desc">خبرة متخصصة في إعادة تدوير الأخشاب.</div>
+                        </li>
+                        <li>
+                            <div class="desc">تقنيات متطورة وجودة مضمونة.</div>
+                        </li>
+                        <li>
+                            <div class="desc">التزام بالمعايير البيئية.</div>
+                        </li>
+                        <li>
+                            <div class="desc">حلول مخصصة حسب احتياجات العملاء.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-7 why-image" style="background-image:url('/images/why-nada.jpg');"></div>
+        </div>
+    </div>
+</section>
+</div>
+<div class="containerWhite">
+
+
+<section id="contact" class="contact-section section" style="direction: rtl; text-align: right;">
+    <div class="container">
+        <h2 class="section-title">تواصل معنا</h2>
+        <p>نحن هنا للإجابة على استفساراتكم وملاحظاتكم، لا تترددوا في التواصل معنا عبر النموذج أدناه:</p>
+
+        <form action="send-message.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="5" placeholder="أدخل رسالتك هنا" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">إرسال</button>
+        </form>
+    </div>
+</section>
 </div>

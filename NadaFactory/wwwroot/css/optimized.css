@@ -394,7 +394,64 @@ margin: 0;
 .plans-text{background-color:var(--green);color:var(--white);position:relative}
 
 /* Why Nada */
-.why-left{background:var(--beige-2);color:var(--green-2);position:relative}
+.why-nada-section {
+    direction: rtl; /* مهم للنص العربي */
+}
+
+.why-left {
+    background-color: #e7decf; /* اللون البيج */
+    display: flex;
+    align-items: center;
+}
+
+    .why-left .inner {
+        padding: 50px;
+    }
+
+.why-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #215732; /* أخضر غامق */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* الخط الأخضر الفاصل */
+.spine {
+    display: block;
+    width: 2px;
+    height: 180px;
+    background-color: #215732;
+    margin: 15px 0;
+}
+
+.why-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .why-list li {
+        margin-bottom: 15px;
+        position: relative;
+        padding-right: 25px;
+        font-size: 18px;
+        color: #333;
+    }
+
+        /* أيقونة مخصصة قبل النص */
+        .why-list li::before {
+            content: url('/images/icon.png'); /* ضع أيقونتك هنا */
+            position: absolute;
+            right: 0;
+            top: 2px;
+        }
+
+.why-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
 
 /* Contact */
 .contact-section{background-color:#f5f0e3;padding:50px 20px}

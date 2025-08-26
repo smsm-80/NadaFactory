@@ -10,6 +10,52 @@ body {
     text-align: right;
     margin: 0
 }
+/* خلفية بيج */
+.bg-beige {
+    background-color: #e6dbc7; /* لون الخلفية البيج */
+}
+
+
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    border-color: #4e7041; /* اللون الأخضر */
+    padding-left: 1rem;
+}
+
+
+
+
+/* عنوان القسم */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    border-color: #4e7041; /* الأخضر المستخدم */
+    padding-left: 1rem;
+}
+
+
+/* النصوص */
+p {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+}
+
+/* تحسين العرض */
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
 .section2 {
     width:100%;
     margin:80px auto;

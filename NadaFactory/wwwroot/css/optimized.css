@@ -23,8 +23,8 @@ body{
 .containerWhite {
     background-color: #fff;
     width: 100%;
-    margin: 20px 0; /* مسافة 20px من الأعلى والأسفل، و0 من اليمين واليسار */
-    padding: 0; /* لا مسافة داخلية */
+    margin-top: 20px;  مسافة 20px من الأعلى والأسفل، و0 من اليمين واليسار 
+    padding: 0;  لا مسافة داخلية 
     box-sizing: border-box;
 }
 

@@ -464,3 +464,485 @@ margin: 0;
 .btn-submit:hover{background-color:#3a5234}
 /* النص */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*:root {
+    --green: #4d6842;
+    --green-2: #2d5f3a;
+    --success: #46643E;
+    --beige: #f5f0e6;
+    --beige-2: #e9dfcc;
+    --beige-3: #f5efdf;
+    --brown: #6d4c41;
+    --text: #333;
+    --white: #fff;
+}*/
+
+/* Base */
+/*html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI','Tajawal','Noto Kufi Arabic',sans-serif;
+    background-color: var(--beige);
+    color: var(--text);
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    font-size: clamp(14px, 1.2vw, 18px);
+    line-height: 1.8;
+}*/
+
+/* Containers */
+/*.container,
+.containerWhite,
+.section2 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.containerWhite, .section2 {
+    background-color: #fff;
+    margin: 50px 0;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}*/
+
+/* Rows & Columns */
+/*.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 1 100%;
+    padding: 10px;
+}
+
+@media(min-width:768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+@media(min-width:1200px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 66.666%;
+        max-width: 66.666%;
+    }
+
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}*/
+
+/* Sections */
+/*.section {
+    padding: clamp(40px, 6vw, 120px) 20px;
+}
+
+.bg-beige {
+    background-color: #e6dbc7;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-factory {
+    background-color: var(--success);
+    color: #fff;
+}*/
+
+/* Titles */
+/*.section-title {
+    font-size: clamp(20px, 2.5vw, 44px);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin: 0 0 1rem;
+    color: var(--green-2);
+    border-color: #4e7041;
+    padding-left: 1rem;
+}
+
+    .section-title .divider {
+        font-size: clamp(22px, 2.5vw, 50px);
+        font-weight: 300;
+        line-height: 1;
+    }
+
+.section-subtitle {
+    font-size: clamp(14px, 1.5vw, 22px);
+    margin: .25rem 0 1rem;
+    color: #555;
+}*/
+
+/* Paragraphs & Text */
+/*p, li {
+    font-size: clamp(14px, 1.2vw, 20px);
+    line-height: 1.9;
+    color: #333;
+    font-weight: 400;
+}
+
+.vision-text, .General-text {
+    background-color: #e6ddc8;
+    color: #2b2b2b;
+    direction: rtl;
+    position: relative;
+}
+
+    .vision-text::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 6px;
+        height: 100%;
+        background-color: #4e7041;
+    }
+
+.vision-title .divider {
+    color: #4e7041;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.vision-list li {
+    position: relative;
+    padding-right: 28px;
+}
+
+    .vision-list li .desc {
+        font-size: 15px;
+        color: #333;
+    }
+
+.icon-leaf {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    background: url('/images/leaf-icon.png') no-repeat center center;
+    background-size: contain;
+}*/
+
+/* Images */
+/*img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+}
+
+.vision-image, .impact-image, .why-image, .tech-image, .markets-image {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.vision-image {
+    background-image: url('/images/vision.jpg');
+    min-height: 100%;
+}
+
+.impact-image {
+    min-height: 100%;
+}*/
+
+/* Equal height columns */
+/*#vision .row, #impact .row, .mission .row {
+    display: flex;
+}
+
+#vision .vision-text, #vision .vision-image,
+#impact .impact-text, #impact .impact-image,
+.mission .text-pane, .mission .media-pane {
+    flex: 1;
+}*/
+
+/* Mission Section */
+/*.mission {
+    display: flex;
+    flex-wrap: wrap;
+    --split-height: 520px;
+}
+
+@media(max-width:991.98px) {
+    .mission {
+        --split-height: 380px;
+    }
+}
+
+.mission .text-pane {
+    background-color: var(--success);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+    .mission .text-pane .inner {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .mission .text-pane::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 6px;
+        height: 100%;
+        background-color: rgba(0,0,0,.18);
+    }
+
+.mission .media-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.mission .img-tile {
+    position: relative;
+    overflow: hidden;
+}
+
+    .mission .img-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }*/
+
+/* Impact Section */
+/*.impact-text {
+    background-color: #4e7041;
+    color: #fff;
+    direction: rtl;
+    padding: 40px;
+}*/
+
+/* Tech Section */
+/*.tech-section {
+    background-color: #f5efe7;
+}
+
+.tech-box {
+    padding: 15px;
+    border-left: 1px solid #c2b9a5;
+    height: 100%;
+}
+
+    .tech-box h5 {
+        color: #2c5b2c;
+        font-weight: 700;
+        margin: 0 0 10px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: clamp(16px,1.5vw,22px);
+    }
+
+    .tech-box p {
+        font-size: clamp(14px,1.2vw,18px);
+        line-height: 1.8;
+        color: #333;
+    }
+
+.tech-image {
+    background-image: url('/images/tech.jpg');
+    min-height: 300px;
+}
+
+@media(min-width:768px) {
+    .tech-image {
+        min-height: 500px;
+    }
+}
+
+@media(min-width:1200px) {
+    .tech-image {
+        min-height: 600px;
+    }
+}*/
+
+/* Why Nada */
+/*.why-left {
+    background-color: #e7decf;
+    display: flex;
+    align-items: center;
+}
+
+    .why-left .inner {
+        padding: 30px;
+    }
+
+.why-title {
+    font-size: clamp(24px,2vw,36px);
+    font-weight: bold;
+    color: #215732;
+    margin-bottom: 20px;
+}
+
+.spine {
+    display: block;
+    width: 2px;
+    height: 120px;
+    background-color: #215732;
+    margin: 15px 0;
+}
+
+.why-list li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 25px;
+    font-size: clamp(14px,1.2vw,20px);
+}
+
+    .why-list li::before {
+        content: url('/images/icon.png');
+        position: absolute;
+        right: 0;
+        top: 2px;
+    }*/
+
+/* Markets Section */
+/*.markets-title {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    color: var(--green-2);
+    margin: 10px 0 20px;
+    font-weight: 800;
+    font-size: clamp(28px,2.5vw,44px);
+}
+
+    .markets-title .divider {
+        font-size: clamp(32px,2.5vw,50px);
+        font-weight: 300;
+    }
+
+.markets-image {
+    background: url('/images/markets.jpg') center/cover no-repeat;
+    min-height: 250px;
+}
+
+@media(min-width:991px) {
+    .markets-image {
+        min-height: 340px;
+    }
+}
+
+@media(min-width:1200px) {
+    .markets-image {
+        min-height: 420px;
+    }
+}*/
+
+/* Contact Section */
+/*.contact-section {
+    background-color: #f5f0e3;
+    padding: 50px 20px;
+}
+
+    .contact-section .section-title {
+        color: var(--green);
+    }
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+    .contact-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+.btn-submit {
+    background-color: var(--green);
+    color: #fff;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: clamp(14px,1.2vw,18px);
+    transition: all .3s ease;
+}
+
+    .btn-submit:hover {
+        background-color: #3a5234;
+        transform: translateY(-2px);
+    }*/
+
+/* Responsive adjustments */
+/*@media (max-width: 767px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    p, li {
+        font-size: 15px;
+    }
+}*/
